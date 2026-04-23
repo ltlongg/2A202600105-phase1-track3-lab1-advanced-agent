@@ -1,0 +1,1602 @@
+[
+  {
+    "qid": "hp_ext_1",
+    "difficulty": "easy",
+    "question": "Which country is the birthplace of Leonardo da Vinci?",
+    "gold_answer": "Italy",
+    "context": [
+      {
+        "title": "Leonardo da Vinci",
+        "text": "Leonardo da Vinci was born in Vinci, Italy in 1452."
+      },
+      {
+        "title": "Italy is located",
+        "text": "Italy is located in Southern Europe and is known as the birthplace of the Renaissance."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_2",
+    "difficulty": "easy",
+    "question": "What sport is Michael Jordan famous for?",
+    "gold_answer": "Basketball",
+    "context": [
+      {
+        "title": "Michael Jordan is",
+        "text": "Michael Jordan is widely regarded as the greatest basketball player of all time."
+      },
+      {
+        "title": "Basketball was invented",
+        "text": "Basketball was invented by James Naismith in 1891."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_3",
+    "difficulty": "easy",
+    "question": "Which university did Bill Gates attend?",
+    "gold_answer": "Harvard University",
+    "context": [
+      {
+        "title": "Bill Gates attended",
+        "text": "Bill Gates attended Harvard University before dropping out to start Microsoft."
+      },
+      {
+        "title": "Harvard University is",
+        "text": "Harvard University is located in Cambridge, Massachusetts."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_4",
+    "difficulty": "easy",
+    "question": "What did Nikola Tesla invent?",
+    "gold_answer": "Alternating current motor",
+    "context": [
+      {
+        "title": "Nikola Tesla invented",
+        "text": "Nikola Tesla invented the alternating current induction motor."
+      },
+      {
+        "title": "The alternating current",
+        "text": "The alternating current motor revolutionized power distribution worldwide."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_5",
+    "difficulty": "easy",
+    "question": "Which instrument did Jimi Hendrix play?",
+    "gold_answer": "Guitar",
+    "context": [
+      {
+        "title": "Jimi Hendrix was",
+        "text": "Jimi Hendrix was one of the most influential guitarists in rock history."
+      },
+      {
+        "title": "The guitar is",
+        "text": "The guitar is a string instrument with origins dating back centuries."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_6",
+    "difficulty": "easy",
+    "question": "What is Marie Curie known for discovering?",
+    "gold_answer": "Radium and Polonium",
+    "context": [
+      {
+        "title": "Marie Curie discovered",
+        "text": "Marie Curie discovered the elements radium and polonium."
+      },
+      {
+        "title": "Radium was used",
+        "text": "Radium was used in medical applications for many years."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_7",
+    "difficulty": "easy",
+    "question": "Which country did Mahatma Gandhi lead to independence?",
+    "gold_answer": "India",
+    "context": [
+      {
+        "title": "Mahatma Gandhi led",
+        "text": "Mahatma Gandhi led India's independence movement against British rule."
+      },
+      {
+        "title": "India became independent",
+        "text": "India became independent on August 15, 1947."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_8",
+    "difficulty": "easy",
+    "question": "What did Thomas Edison invent?",
+    "gold_answer": "Practical light bulb",
+    "context": [
+      {
+        "title": "Thomas Edison invented",
+        "text": "Thomas Edison invented a practical and long-lasting incandescent light bulb."
+      },
+      {
+        "title": "The light bulb",
+        "text": "The light bulb transformed modern life and workplaces."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_9",
+    "difficulty": "easy",
+    "question": "Which country is Cristiano Ronaldo from?",
+    "gold_answer": "Portugal",
+    "context": [
+      {
+        "title": "Cristiano Ronaldo was",
+        "text": "Cristiano Ronaldo was born on February 5, 1985, in Funchal, Portugal."
+      },
+      {
+        "title": "Portugal is located",
+        "text": "Portugal is located on the Iberian Peninsula in Western Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_10",
+    "difficulty": "easy",
+    "question": "What is Albert Einstein most famous for?",
+    "gold_answer": "Theory of Relativity",
+    "context": [
+      {
+        "title": "Albert Einstein developed",
+        "text": "Albert Einstein developed the theory of relativity and won the Nobel Prize in Physics."
+      },
+      {
+        "title": "The theory of",
+        "text": "The theory of relativity revolutionized our understanding of space and time."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_11",
+    "difficulty": "easy",
+    "question": "What is the capital of France?",
+    "gold_answer": "Paris",
+    "context": [
+      {
+        "title": "Paris is the",
+        "text": "Paris is the capital and most populous city of France."
+      },
+      {
+        "title": "Paris is known",
+        "text": "Paris is known as the City of Light and is a major cultural center."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_12",
+    "difficulty": "easy",
+    "question": "Which continent is Australia part of?",
+    "gold_answer": "Oceania",
+    "context": [
+      {
+        "title": "Australia is the",
+        "text": "Australia is the largest country in Oceania."
+      },
+      {
+        "title": "Oceania consists of",
+        "text": "Oceania consists of Australia, New Zealand, and the Pacific Islands."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_13",
+    "difficulty": "easy",
+    "question": "What is the largest ocean on Earth?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "The Pacific Ocean",
+        "text": "The Pacific Ocean is the largest and deepest ocean on Earth."
+      },
+      {
+        "title": "The Pacific Ocean",
+        "text": "The Pacific Ocean covers an area of 165 million square kilometers."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_14",
+    "difficulty": "easy",
+    "question": "Which country has the Great Wall?",
+    "gold_answer": "China",
+    "context": [
+      {
+        "title": "The Great Wall",
+        "text": "The Great Wall of China is one of the most impressive structures ever built."
+      },
+      {
+        "title": "China is located",
+        "text": "China is located in East Asia and is the world's most populous country."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_15",
+    "difficulty": "easy",
+    "question": "What is the capital of Japan?",
+    "gold_answer": "Tokyo",
+    "context": [
+      {
+        "title": "Tokyo is the",
+        "text": "Tokyo is the capital and largest city of Japan."
+      },
+      {
+        "title": "Tokyo is located",
+        "text": "Tokyo is located on the eastern coast of Honshu island."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_16",
+    "difficulty": "easy",
+    "question": "Which river is the longest in Africa?",
+    "gold_answer": "Nile River",
+    "context": [
+      {
+        "title": "The Nile River",
+        "text": "The Nile River is the longest river in the world, flowing through Africa."
+      },
+      {
+        "title": "The Nile River",
+        "text": "The Nile River flows through eleven countries in northeastern Africa."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_17",
+    "difficulty": "easy",
+    "question": "What is the capital of Australia?",
+    "gold_answer": "Canberra",
+    "context": [
+      {
+        "title": "Canberra is the",
+        "text": "Canberra is the capital city of Australia, established in 1927."
+      },
+      {
+        "title": "Canberra was built",
+        "text": "Canberra was built to compromise between Sydney and Melbourne rivalry."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_18",
+    "difficulty": "easy",
+    "question": "Which country is home to the Statue of Liberty?",
+    "gold_answer": "United States",
+    "context": [
+      {
+        "title": "The Statue of",
+        "text": "The Statue of Liberty is located on Liberty Island in New York Harbor."
+      },
+      {
+        "title": "The Statue of",
+        "text": "The Statue of Liberty was a gift from France to the United States."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_19",
+    "difficulty": "easy",
+    "question": "What is the largest desert in the world?",
+    "gold_answer": "Antarctic Desert",
+    "context": [
+      {
+        "title": "The Antarctic Desert",
+        "text": "The Antarctic Desert is the largest desert in the world, covering most of Antarctica."
+      },
+      {
+        "title": "Antarctica is the",
+        "text": "Antarctica is the coldest and most remote continent on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_20",
+    "difficulty": "easy",
+    "question": "Which country is home to the Amazon Rainforest?",
+    "gold_answer": "Brazil",
+    "context": [
+      {
+        "title": "The Amazon Rainforest",
+        "text": "The Amazon Rainforest is located primarily in Brazil."
+      },
+      {
+        "title": "Brazil is the",
+        "text": "Brazil is the largest country in South America."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_21",
+    "difficulty": "easy",
+    "question": "In which year did the Titanic sink?",
+    "gold_answer": "1912",
+    "context": [
+      {
+        "title": "The RMS Titanic",
+        "text": "The RMS Titanic sank on April 15, 1912, after hitting an iceberg."
+      },
+      {
+        "title": "The Titanic was",
+        "text": "The Titanic was considered unsinkable but sank during its maiden voyage."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_22",
+    "difficulty": "easy",
+    "question": "Who painted the Mona Lisa?",
+    "gold_answer": "Leonardo da Vinci",
+    "context": [
+      {
+        "title": "The Mona Lisa",
+        "text": "The Mona Lisa was painted by Leonardo da Vinci between 1503 and 1519."
+      },
+      {
+        "title": "The Mona Lisa",
+        "text": "The Mona Lisa is housed in the Louvre Museum in Paris."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_23",
+    "difficulty": "easy",
+    "question": "Which empire built Machu Picchu?",
+    "gold_answer": "Inca Empire",
+    "context": [
+      {
+        "title": "Machu Picchu was",
+        "text": "Machu Picchu was built by the Inca Empire in the mid-1400s."
+      },
+      {
+        "title": "Machu Picchu is",
+        "text": "Machu Picchu is located in Peru and is one of the New Seven Wonders."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_24",
+    "difficulty": "easy",
+    "question": "Who was the first President of the United States?",
+    "gold_answer": "George Washington",
+    "context": [
+      {
+        "title": "George Washington served",
+        "text": "George Washington served as the first President of the United States from 1789 to 1797."
+      },
+      {
+        "title": "George Washington is",
+        "text": "George Washington is often called the Father of His Country."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_25",
+    "difficulty": "easy",
+    "question": "What year did World War II end?",
+    "gold_answer": "1945",
+    "context": [
+      {
+        "title": "World War II",
+        "text": "World War II ended in 1945 with the surrender of Japan."
+      },
+      {
+        "title": "World War II",
+        "text": "World War II lasted from 1939 to 1945 and was the deadliest conflict in history."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_26",
+    "difficulty": "easy",
+    "question": "Who wrote the Declaration of Independence?",
+    "gold_answer": "Thomas Jefferson",
+    "context": [
+      {
+        "title": "Thomas Jefferson was",
+        "text": "Thomas Jefferson was the principal author of the Declaration of Independence."
+      },
+      {
+        "title": "The Declaration of",
+        "text": "The Declaration of Independence was adopted on July 4, 1776."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_27",
+    "difficulty": "easy",
+    "question": "What ancient wonder is located in Egypt?",
+    "gold_answer": "Great Pyramid of Giza",
+    "context": [
+      {
+        "title": "The Great Pyramid",
+        "text": "The Great Pyramid of Giza is the oldest and largest of the Three Pyramids of Giza."
+      },
+      {
+        "title": "The Great Pyramid",
+        "text": "The Great Pyramid was built during the reign of Pharaoh Khufu."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_28",
+    "difficulty": "easy",
+    "question": "Who discovered America in 1492?",
+    "gold_answer": "Christopher Columbus",
+    "context": [
+      {
+        "title": "Christopher Columbus sailed",
+        "text": "Christopher Columbus sailed across the Atlantic Ocean in 1492."
+      },
+      {
+        "title": "Columbus's voyage led",
+        "text": "Columbus's voyage led to European exploration of the Americas."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_29",
+    "difficulty": "easy",
+    "question": "In which country is the Colosseum located?",
+    "gold_answer": "Italy",
+    "context": [
+      {
+        "title": "The Colosseum is",
+        "text": "The Colosseum is an ancient amphitheater located in Rome, Italy."
+      },
+      {
+        "title": "The Colosseum was",
+        "text": "The Colosseum was built between 72 and 80 AD during the Roman Empire."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_30",
+    "difficulty": "easy",
+    "question": "What was the capital of the Ottoman Empire?",
+    "gold_answer": "Constantinople",
+    "context": [
+      {
+        "title": "Constantinople was the",
+        "text": "Constantinople was the capital of the Ottoman Empire for over 400 years."
+      },
+      {
+        "title": "Constantinople is now",
+        "text": "Constantinople is now known as Istanbul and is located in Turkey."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_31",
+    "difficulty": "easy",
+    "question": "Who developed the periodic table of elements?",
+    "gold_answer": "Dmitri Mendeleev",
+    "context": [
+      {
+        "title": "Dmitri Mendeleev created",
+        "text": "Dmitri Mendeleev created the periodic table of elements in 1869."
+      },
+      {
+        "title": "The periodic table",
+        "text": "The periodic table organizes all known chemical elements by atomic number."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_32",
+    "difficulty": "easy",
+    "question": "What year was the Internet invented?",
+    "gold_answer": "1969",
+    "context": [
+      {
+        "title": "The Internet began",
+        "text": "The Internet began as ARPANET, created in 1969 by the US Department of Defense."
+      },
+      {
+        "title": "The World Wide",
+        "text": "The World Wide Web was invented by Tim Berners-Lee in 1989."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_33",
+    "difficulty": "easy",
+    "question": "Who invented the telephone?",
+    "gold_answer": "Alexander Graham Bell",
+    "context": [
+      {
+        "title": "Alexander Graham Bell",
+        "text": "Alexander Graham Bell patented the telephone in 1876."
+      },
+      {
+        "title": "Bell's telephone patent",
+        "text": "Bell's telephone patent became one of the most valuable patents ever issued."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_34",
+    "difficulty": "medium",
+    "question": "What is the speed of light?",
+    "gold_answer": "299,792 kilometers per second",
+    "context": [
+      {
+        "title": "The speed of",
+        "text": "The speed of light is approximately 299,792 kilometers per second."
+      },
+      {
+        "title": "Light is the",
+        "text": "Light is the fastest thing known to exist in the universe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_35",
+    "difficulty": "medium",
+    "question": "Who discovered the structure of DNA?",
+    "gold_answer": "Watson, Crick, and Franklin",
+    "context": [
+      {
+        "title": "James Watson, Francis",
+        "text": "James Watson, Francis Crick, and Rosalind Franklin discovered DNA's double helix structure."
+      },
+      {
+        "title": "DNA carries genetic",
+        "text": "DNA carries genetic instructions for life and heredity."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_36",
+    "difficulty": "medium",
+    "question": "What planet is closest to the Sun?",
+    "gold_answer": "Mercury",
+    "context": [
+      {
+        "title": "Mercury is the",
+        "text": "Mercury is the closest planet to the Sun in our solar system."
+      },
+      {
+        "title": "Mercury is the",
+        "text": "Mercury is the smallest planet and has extreme temperature variations."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_37",
+    "difficulty": "medium",
+    "question": "Who invented the steam engine?",
+    "gold_answer": "James Watt",
+    "context": [
+      {
+        "title": "James Watt improved",
+        "text": "James Watt improved the steam engine in 1769."
+      },
+      {
+        "title": "Watt's improvements were",
+        "text": "Watt's improvements were crucial to the Industrial Revolution."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_38",
+    "difficulty": "medium",
+    "question": "What is the largest moon of Jupiter?",
+    "gold_answer": "Ganymede",
+    "context": [
+      {
+        "title": "Ganymede is the",
+        "text": "Ganymede is the largest moon of Jupiter and the largest moon in the solar system."
+      },
+      {
+        "title": "Ganymede is larger",
+        "text": "Ganymede is larger than the planet Mercury."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_39",
+    "difficulty": "medium",
+    "question": "Who formulated the laws of motion?",
+    "gold_answer": "Isaac Newton",
+    "context": [
+      {
+        "title": "Isaac Newton formulated",
+        "text": "Isaac Newton formulated the three laws of motion and universal gravitation."
+      },
+      {
+        "title": "Newton's laws form",
+        "text": "Newton's laws form the foundation of classical mechanics."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_40",
+    "difficulty": "medium",
+    "question": "What gas do plants absorb for photosynthesis?",
+    "gold_answer": "Carbon dioxide",
+    "context": [
+      {
+        "title": "Plants absorb carbon",
+        "text": "Plants absorb carbon dioxide from the atmosphere during photosynthesis."
+      },
+      {
+        "title": "Photosynthesis converts light",
+        "text": "Photosynthesis converts light energy into chemical energy."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_41",
+    "difficulty": "medium",
+    "question": "Who wrote Pride and Prejudice?",
+    "gold_answer": "Jane Austen",
+    "context": [
+      {
+        "title": "Pride and Prejudice",
+        "text": "Pride and Prejudice was written by Jane Austen and published in 1813."
+      },
+      {
+        "title": "The novel is",
+        "text": "The novel is considered one of the greatest works of English literature."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_42",
+    "difficulty": "medium",
+    "question": "Which play did Shakespeare write about a Danish prince?",
+    "gold_answer": "Hamlet",
+    "context": [
+      {
+        "title": "Hamlet is a",
+        "text": "Hamlet is a tragedy written by William Shakespeare."
+      },
+      {
+        "title": "The play explores",
+        "text": "The play explores themes of revenge, madness, and mortality."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_43",
+    "difficulty": "medium",
+    "question": "Who composed the Four Seasons?",
+    "gold_answer": "Antonio Vivaldi",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons is a series of violin concertos by Antonio Vivaldi."
+      },
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons is one of the most popular pieces of classical music."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_44",
+    "difficulty": "medium",
+    "question": "Who painted The Starry Night?",
+    "gold_answer": "Vincent van Gogh",
+    "context": [
+      {
+        "title": "The Starry Night",
+        "text": "The Starry Night was painted by Vincent van Gogh in 1889."
+      },
+      {
+        "title": "The painting is",
+        "text": "The painting is housed in the Museum of Modern Art in New York."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_45",
+    "difficulty": "medium",
+    "question": "What is the pen name of Samuel Langhorne Clemens?",
+    "gold_answer": "Mark Twain",
+    "context": [
+      {
+        "title": "Samuel Langhorne Clemens",
+        "text": "Samuel Langhorne Clemens wrote under the pen name Mark Twain."
+      },
+      {
+        "title": "Mark Twain is",
+        "text": "Mark Twain is famous for The Adventures of Tom Sawyer and Huckleberry Finn."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_46",
+    "difficulty": "medium",
+    "question": "Who wrote 1984?",
+    "gold_answer": "George Orwell",
+    "context": [
+      {
+        "title": "1984 was written",
+        "text": "1984 was written by George Orwell and published in 1949."
+      },
+      {
+        "title": "The novel depicts",
+        "text": "The novel depicts a dystopian future with totalitarian government."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_47",
+    "difficulty": "medium",
+    "question": "Which artist cut off part of his own ear?",
+    "gold_answer": "Vincent van Gogh",
+    "context": [
+      {
+        "title": "Vincent van Gogh",
+        "text": "Vincent van Gogh cut off part of his ear in 1888."
+      },
+      {
+        "title": "Van Gogh was",
+        "text": "Van Gogh was a Dutch post-impressionist painter."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_48",
+    "difficulty": "medium",
+    "question": "Who wrote Frankenstein?",
+    "gold_answer": "Mary Shelley",
+    "context": [
+      {
+        "title": "Frankenstein was written",
+        "text": "Frankenstein was written by Mary Shelley and published in 1818."
+      },
+      {
+        "title": "The novel is",
+        "text": "The novel is considered one of the earliest science fiction works."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_49",
+    "difficulty": "medium",
+    "question": "What style of art did Salvador Dalí practice?",
+    "gold_answer": "Surrealism",
+    "context": [
+      {
+        "title": "Salvador Dalí was",
+        "text": "Salvador Dalí was a master of surrealism and known for his dreamlike paintings."
+      },
+      {
+        "title": "Surrealism is an",
+        "text": "Surrealism is an artistic movement emphasizing the unconscious mind."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_50",
+    "difficulty": "medium",
+    "question": "Who wrote The Great Gatsby?",
+    "gold_answer": "F. Scott Fitzgerald",
+    "context": [
+      {
+        "title": "The Great Gatsby",
+        "text": "The Great Gatsby was written by F. Scott Fitzgerald and published in 1925."
+      },
+      {
+        "title": "The novel is",
+        "text": "The novel is set in 1920s New York during the Jazz Age."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_51",
+    "difficulty": "medium",
+    "question": "What sea borders the country where Petra is located?",
+    "gold_answer": "Dead Sea",
+    "context": [
+      {
+        "title": "Petra is an",
+        "text": "Petra is an ancient city carved into rock and is located in Jordan."
+      },
+      {
+        "title": "Jordan is situated",
+        "text": "Jordan is situated on the eastern shore of the Dead Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_52",
+    "difficulty": "medium",
+    "question": "Which mountain range contains the highest peak in the country whose capital is Kathmandu?",
+    "gold_answer": "Himalayas",
+    "context": [
+      {
+        "title": "Kathmandu is the",
+        "text": "Kathmandu is the capital of Nepal."
+      },
+      {
+        "title": "Mount Everest, the",
+        "text": "Mount Everest, the world's highest mountain, is located in the Himalayas within Nepal."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_53",
+    "difficulty": "medium",
+    "question": "What river flows through the city where Sigmund Freud spent most of his life?",
+    "gold_answer": "Danube River",
+    "context": [
+      {
+        "title": "Sigmund Freud spent",
+        "text": "Sigmund Freud spent most of his life in Vienna, Austria."
+      },
+      {
+        "title": "Vienna is located",
+        "text": "Vienna is located on the Danube River."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_54",
+    "difficulty": "medium",
+    "question": "Which ocean borders the country whose largest city is Mumbai?",
+    "gold_answer": "Arabian Sea",
+    "context": [
+      {
+        "title": "Mumbai is the",
+        "text": "Mumbai is the largest city of India."
+      },
+      {
+        "title": "India borders the",
+        "text": "India borders the Arabian Sea on its western coast."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_55",
+    "difficulty": "medium",
+    "question": "What language family does the main language of Brazil belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Portuguese is the",
+        "text": "Portuguese is the official language of Brazil."
+      },
+      {
+        "title": "Portuguese is a",
+        "text": "Portuguese is a Romance language, derived from Latin."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_56",
+    "difficulty": "medium",
+    "question": "Which desert is found in the country that borders the Red Sea to its west?",
+    "gold_answer": "Arabian Desert",
+    "context": [
+      {
+        "title": "The Red Sea",
+        "text": "The Red Sea borders the Arabian Peninsula to its west."
+      },
+      {
+        "title": "The Arabian Desert",
+        "text": "The Arabian Desert is located in the Arabian Peninsula."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_57",
+    "difficulty": "medium",
+    "question": "What century saw the birth of the person who invented the lightning rod?",
+    "gold_answer": "18th century",
+    "context": [
+      {
+        "title": "Benjamin Franklin invented",
+        "text": "Benjamin Franklin invented the lightning rod in the 18th century."
+      },
+      {
+        "title": "Franklin was an",
+        "text": "Franklin was an American polymath who made many contributions to science."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_58",
+    "difficulty": "medium",
+    "question": "Which mountain is the highest in the country that was the birthplace of Shakespeare?",
+    "gold_answer": "Ben Nevis",
+    "context": [
+      {
+        "title": "William Shakespeare was",
+        "text": "William Shakespeare was born in England, United Kingdom."
+      },
+      {
+        "title": "Ben Nevis is",
+        "text": "Ben Nevis is the highest mountain in Scotland, which is part of the United Kingdom."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_59",
+    "difficulty": "medium",
+    "question": "What city hosts the museum where most works of the artist who painted Water Lilies are displayed?",
+    "gold_answer": "Paris",
+    "context": [
+      {
+        "title": "Claude Monet painted",
+        "text": "Claude Monet painted the Water Lilies series."
+      },
+      {
+        "title": "Most of Monet's",
+        "text": "Most of Monet's works are housed in museums in Paris, France."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_60",
+    "difficulty": "medium",
+    "question": "Which university awarded a doctorate to the scientist who discovered the electron?",
+    "gold_answer": "University of Cambridge",
+    "context": [
+      {
+        "title": "J. J. Thomson",
+        "text": "J. J. Thomson discovered the electron in 1897."
+      },
+      {
+        "title": "Thomson was a",
+        "text": "Thomson was a professor at the University of Cambridge and won the Nobel Prize."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_61",
+    "difficulty": "medium",
+    "question": "What is the capital of the country where the author of Crime and Punishment was born?",
+    "gold_answer": "Moscow",
+    "context": [
+      {
+        "title": "Fyodor Dostoevsky, author",
+        "text": "Fyodor Dostoevsky, author of Crime and Punishment, was born in Russia."
+      },
+      {
+        "title": "Moscow is the",
+        "text": "Moscow is the capital and largest city of Russia."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_62",
+    "difficulty": "medium",
+    "question": "In which city is the opera house that premiered the work of the composer who created Swan Lake?",
+    "gold_answer": "Saint Petersburg",
+    "context": [
+      {
+        "title": "Pyotr Ilyich Tchaikovsky",
+        "text": "Pyotr Ilyich Tchaikovsky composed Swan Lake."
+      },
+      {
+        "title": "Swan Lake premiered",
+        "text": "Swan Lake premiered at the Mariinsky Theatre in Saint Petersburg, Russia."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_63",
+    "difficulty": "medium",
+    "question": "What scientific field did the Nobel Prize winner who discovered X-rays specialize in?",
+    "gold_answer": "Physics",
+    "context": [
+      {
+        "title": "Wilhelm Röntgen discovered",
+        "text": "Wilhelm Röntgen discovered X-rays and won the Nobel Prize in Physics in 1901."
+      },
+      {
+        "title": "Röntgen was a",
+        "text": "Röntgen was a German physicist known for his groundbreaking discoveries."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_64",
+    "difficulty": "medium",
+    "question": "Which continent is home to the country that hosted the 2016 Summer Olympics?",
+    "gold_answer": "South America",
+    "context": [
+      {
+        "title": "Brazil hosted the",
+        "text": "Brazil hosted the 2016 Summer Olympics in Rio de Janeiro."
+      },
+      {
+        "title": "Brazil is the",
+        "text": "Brazil is the largest country in South America."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_65",
+    "difficulty": "medium",
+    "question": "What is the primary language of the country where Pablo Picasso was born?",
+    "gold_answer": "Spanish",
+    "context": [
+      {
+        "title": "Pablo Picasso was",
+        "text": "Pablo Picasso was born in Málaga, Spain in 1881."
+      },
+      {
+        "title": "Spanish is the",
+        "text": "Spanish is the primary language of Spain."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_66",
+    "difficulty": "medium",
+    "question": "Which sea is adjacent to the country that invented democracy?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {
+        "title": "Ancient Greece invented",
+        "text": "Ancient Greece invented democracy in Athens."
+      },
+      {
+        "title": "Greece borders the",
+        "text": "Greece borders the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_67",
+    "difficulty": "hard",
+    "question": "In what year did the scientist who proposed evolution publish his main theory?",
+    "gold_answer": "1859",
+    "context": [
+      {
+        "title": "Charles Darwin proposed",
+        "text": "Charles Darwin proposed the theory of evolution by natural selection."
+      },
+      {
+        "title": "Darwin published On",
+        "text": "Darwin published On the Origin of Species in 1859."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_68",
+    "difficulty": "hard",
+    "question": "What is the national sport of the country where Gabriel García Márquez was born?",
+    "gold_answer": "Cycling",
+    "context": [
+      {
+        "title": "Gabriel García Márquez",
+        "text": "Gabriel García Márquez was born in Colombia."
+      },
+      {
+        "title": "Cycling is considered",
+        "text": "Cycling is considered the national sport of Colombia."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_69",
+    "difficulty": "hard",
+    "question": "What was the profession of the father of the composer who wrote The Magic Flute?",
+    "gold_answer": "Musician",
+    "context": [
+      {
+        "title": "Wolfgang Amadeus Mozart",
+        "text": "Wolfgang Amadeus Mozart composed The Magic Flute."
+      },
+      {
+        "title": "Mozart's father, Leopold",
+        "text": "Mozart's father, Leopold Mozart, was a renowned composer and musician."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_70",
+    "difficulty": "hard",
+    "question": "In which country is the university where Marie Curie won her first degree?",
+    "gold_answer": "France",
+    "context": [
+      {
+        "title": "Marie Curie studied",
+        "text": "Marie Curie studied at the University of Paris (Sorbonne)."
+      },
+      {
+        "title": "The Sorbonne is",
+        "text": "The Sorbonne is located in Paris, France."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_71",
+    "difficulty": "hard",
+    "question": "What is the highest peak in the mountain range of the country that borders the Dead Sea?",
+    "gold_answer": "Mount Hermon",
+    "context": [
+      {
+        "title": "The Dead Sea",
+        "text": "The Dead Sea is bordered by Jordan to its east."
+      },
+      {
+        "title": "Mount Hermon is",
+        "text": "Mount Hermon is the highest peak in the Anti-Lebanon Range in the region."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_72",
+    "difficulty": "hard",
+    "question": "What language is spoken in the country where the inventor of the thermometer was born?",
+    "gold_answer": "Italian",
+    "context": [
+      {
+        "title": "Galileo Galilei invented",
+        "text": "Galileo Galilei invented the thermometer and was born in Italy."
+      },
+      {
+        "title": "Italian is the",
+        "text": "Italian is the primary language of Italy."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_73",
+    "difficulty": "hard",
+    "question": "In which ocean does the country where the author of Don Quixote was born have coastlines?",
+    "gold_answer": "Atlantic and Mediterranean",
+    "context": [
+      {
+        "title": "Miguel de Cervantes",
+        "text": "Miguel de Cervantes wrote Don Quixote and was born in Spain."
+      },
+      {
+        "title": "Spain has coastlines",
+        "text": "Spain has coastlines on both the Atlantic Ocean and the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_74",
+    "difficulty": "hard",
+    "question": "What is the primary religion in the countries where both Shakespeare and Cervantes were born?",
+    "gold_answer": "Christianity",
+    "context": [
+      {
+        "title": "William Shakespeare was",
+        "text": "William Shakespeare was born in England and Miguel de Cervantes in Spain."
+      },
+      {
+        "title": "Both England and",
+        "text": "Both England and Spain are predominantly Christian nations."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_75",
+    "difficulty": "hard",
+    "question": "Which river runs through the capital of the country where the author of War and Peace was born?",
+    "gold_answer": "Moskva River",
+    "context": [
+      {
+        "title": "Leo Tolstoy, author",
+        "text": "Leo Tolstoy, author of War and Peace, was born in Russia."
+      },
+      {
+        "title": "Moscow, the capital",
+        "text": "Moscow, the capital of Russia, is located on the Moskva River."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_76",
+    "difficulty": "hard",
+    "question": "What field of study is the main discipline taught at the university where Richard Feynman taught?",
+    "gold_answer": "Physics",
+    "context": [
+      {
+        "title": "Richard Feynman was",
+        "text": "Richard Feynman was a renowned theoretical physicist who taught at Caltech."
+      },
+      {
+        "title": "Caltech is primarily",
+        "text": "Caltech is primarily known for physics and engineering."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_77",
+    "difficulty": "hard",
+    "question": "In what century was born the scientist whose equation E=mc² revolutionized physics?",
+    "gold_answer": "19th century",
+    "context": [
+      {
+        "title": "Albert Einstein formulated",
+        "text": "Albert Einstein formulated the equation E=mc²."
+      },
+      {
+        "title": "Einstein was born",
+        "text": "Einstein was born in 1879, during the 19th century."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_78",
+    "difficulty": "hard",
+    "question": "What sea lies between the country where Aristotle was born and the country where he was a tutor?",
+    "gold_answer": "Aegean Sea",
+    "context": [
+      {
+        "title": "Aristotle was born",
+        "text": "Aristotle was born in Stagira, ancient Greece."
+      },
+      {
+        "title": "Aristotle tutored Alexander",
+        "text": "Aristotle tutored Alexander the Great in Macedon, separated from Greece by the Aegean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_79",
+    "difficulty": "hard",
+    "question": "Which architectural style dominates the buildings in the city where Michelangelo painted the Sistine Chapel?",
+    "gold_answer": "Renaissance",
+    "context": [
+      {
+        "title": "Michelangelo painted the",
+        "text": "Michelangelo painted the Sistine Chapel in Vatican City, located in Rome."
+      },
+      {
+        "title": "Rome is known",
+        "text": "Rome is known for its Renaissance and Baroque architecture."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_80",
+    "difficulty": "hard",
+    "question": "What empire controlled the city where the Library of Alexandria was built?",
+    "gold_answer": "Ptolemaic Egypt",
+    "context": [
+      {
+        "title": "The Library of",
+        "text": "The Library of Alexandria was built in Alexandria, Egypt."
+      },
+      {
+        "title": "Alexandria was the",
+        "text": "Alexandria was the capital of Ptolemaic Egypt under Greek rule."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_81",
+    "difficulty": "hard",
+    "question": "Which country is the birthplace of Leonardo da Vinci?",
+    "gold_answer": "Italy",
+    "context": [
+      {
+        "title": "Leonardo da Vinci",
+        "text": "Leonardo da Vinci was born in Vinci, Italy in 1452."
+      },
+      {
+        "title": "Italy is located",
+        "text": "Italy is located in Southern Europe and is known as the birthplace of the Renaissance."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_82",
+    "difficulty": "hard",
+    "question": "What sport is Michael Jordan famous for?",
+    "gold_answer": "Basketball",
+    "context": [
+      {
+        "title": "Michael Jordan is",
+        "text": "Michael Jordan is widely regarded as the greatest basketball player of all time."
+      },
+      {
+        "title": "Basketball was invented",
+        "text": "Basketball was invented by James Naismith in 1891."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_83",
+    "difficulty": "hard",
+    "question": "Which university did Bill Gates attend?",
+    "gold_answer": "Harvard University",
+    "context": [
+      {
+        "title": "Bill Gates attended",
+        "text": "Bill Gates attended Harvard University before dropping out to start Microsoft."
+      },
+      {
+        "title": "Harvard University is",
+        "text": "Harvard University is located in Cambridge, Massachusetts."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_84",
+    "difficulty": "hard",
+    "question": "What did Nikola Tesla invent?",
+    "gold_answer": "Alternating current motor",
+    "context": [
+      {
+        "title": "Nikola Tesla invented",
+        "text": "Nikola Tesla invented the alternating current induction motor."
+      },
+      {
+        "title": "The alternating current",
+        "text": "The alternating current motor revolutionized power distribution worldwide."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_85",
+    "difficulty": "hard",
+    "question": "Which instrument did Jimi Hendrix play?",
+    "gold_answer": "Guitar",
+    "context": [
+      {
+        "title": "Jimi Hendrix was",
+        "text": "Jimi Hendrix was one of the most influential guitarists in rock history."
+      },
+      {
+        "title": "The guitar is",
+        "text": "The guitar is a string instrument with origins dating back centuries."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_86",
+    "difficulty": "hard",
+    "question": "What is Marie Curie known for discovering?",
+    "gold_answer": "Radium and Polonium",
+    "context": [
+      {
+        "title": "Marie Curie discovered",
+        "text": "Marie Curie discovered the elements radium and polonium."
+      },
+      {
+        "title": "Radium was used",
+        "text": "Radium was used in medical applications for many years."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_87",
+    "difficulty": "hard",
+    "question": "Which country did Mahatma Gandhi lead to independence?",
+    "gold_answer": "India",
+    "context": [
+      {
+        "title": "Mahatma Gandhi led",
+        "text": "Mahatma Gandhi led India's independence movement against British rule."
+      },
+      {
+        "title": "India became independent",
+        "text": "India became independent on August 15, 1947."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_88",
+    "difficulty": "hard",
+    "question": "What did Thomas Edison invent?",
+    "gold_answer": "Practical light bulb",
+    "context": [
+      {
+        "title": "Thomas Edison invented",
+        "text": "Thomas Edison invented a practical and long-lasting incandescent light bulb."
+      },
+      {
+        "title": "The light bulb",
+        "text": "The light bulb transformed modern life and workplaces."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_89",
+    "difficulty": "hard",
+    "question": "Which country is Cristiano Ronaldo from?",
+    "gold_answer": "Portugal",
+    "context": [
+      {
+        "title": "Cristiano Ronaldo was",
+        "text": "Cristiano Ronaldo was born on February 5, 1985, in Funchal, Portugal."
+      },
+      {
+        "title": "Portugal is located",
+        "text": "Portugal is located on the Iberian Peninsula in Western Europe."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_90",
+    "difficulty": "hard",
+    "question": "What is Albert Einstein most famous for?",
+    "gold_answer": "Theory of Relativity",
+    "context": [
+      {
+        "title": "Albert Einstein developed",
+        "text": "Albert Einstein developed the theory of relativity and won the Nobel Prize in Physics."
+      },
+      {
+        "title": "The theory of",
+        "text": "The theory of relativity revolutionized our understanding of space and time."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_91",
+    "difficulty": "hard",
+    "question": "What is the capital of France?",
+    "gold_answer": "Paris",
+    "context": [
+      {
+        "title": "Paris is the",
+        "text": "Paris is the capital and most populous city of France."
+      },
+      {
+        "title": "Paris is known",
+        "text": "Paris is known as the City of Light and is a major cultural center."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_92",
+    "difficulty": "hard",
+    "question": "Which continent is Australia part of?",
+    "gold_answer": "Oceania",
+    "context": [
+      {
+        "title": "Australia is the",
+        "text": "Australia is the largest country in Oceania."
+      },
+      {
+        "title": "Oceania consists of",
+        "text": "Oceania consists of Australia, New Zealand, and the Pacific Islands."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_93",
+    "difficulty": "hard",
+    "question": "What is the largest ocean on Earth?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "The Pacific Ocean",
+        "text": "The Pacific Ocean is the largest and deepest ocean on Earth."
+      },
+      {
+        "title": "The Pacific Ocean",
+        "text": "The Pacific Ocean covers an area of 165 million square kilometers."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_94",
+    "difficulty": "hard",
+    "question": "Which country has the Great Wall?",
+    "gold_answer": "China",
+    "context": [
+      {
+        "title": "The Great Wall",
+        "text": "The Great Wall of China is one of the most impressive structures ever built."
+      },
+      {
+        "title": "China is located",
+        "text": "China is located in East Asia and is the world's most populous country."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_95",
+    "difficulty": "hard",
+    "question": "What is the capital of Japan?",
+    "gold_answer": "Tokyo",
+    "context": [
+      {
+        "title": "Tokyo is the",
+        "text": "Tokyo is the capital and largest city of Japan."
+      },
+      {
+        "title": "Tokyo is located",
+        "text": "Tokyo is located on the eastern coast of Honshu island."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_96",
+    "difficulty": "hard",
+    "question": "Which river is the longest in Africa?",
+    "gold_answer": "Nile River",
+    "context": [
+      {
+        "title": "The Nile River",
+        "text": "The Nile River is the longest river in the world, flowing through Africa."
+      },
+      {
+        "title": "The Nile River",
+        "text": "The Nile River flows through eleven countries in northeastern Africa."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_97",
+    "difficulty": "hard",
+    "question": "What is the capital of Australia?",
+    "gold_answer": "Canberra",
+    "context": [
+      {
+        "title": "Canberra is the",
+        "text": "Canberra is the capital city of Australia, established in 1927."
+      },
+      {
+        "title": "Canberra was built",
+        "text": "Canberra was built to compromise between Sydney and Melbourne rivalry."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_98",
+    "difficulty": "hard",
+    "question": "Which country is home to the Statue of Liberty?",
+    "gold_answer": "United States",
+    "context": [
+      {
+        "title": "The Statue of",
+        "text": "The Statue of Liberty is located on Liberty Island in New York Harbor."
+      },
+      {
+        "title": "The Statue of",
+        "text": "The Statue of Liberty was a gift from France to the United States."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_99",
+    "difficulty": "hard",
+    "question": "What is the largest desert in the world?",
+    "gold_answer": "Antarctic Desert",
+    "context": [
+      {
+        "title": "The Antarctic Desert",
+        "text": "The Antarctic Desert is the largest desert in the world, covering most of Antarctica."
+      },
+      {
+        "title": "Antarctica is the",
+        "text": "Antarctica is the coldest and most remote continent on Earth."
+      }
+    ]
+  },
+  {
+    "qid": "hp_ext_100",
+    "difficulty": "hard",
+    "question": "Which country is home to the Amazon Rainforest?",
+    "gold_answer": "Brazil",
+    "context": [
+      {
+        "title": "The Amazon Rainforest",
+        "text": "The Amazon Rainforest is located primarily in Brazil."
+      },
+      {
+        "title": "Brazil is the",
+        "text": "Brazil is the largest country in South America."
+      }
+    ]
+  }
+]
