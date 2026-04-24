@@ -1,0 +1,2052 @@
+{
+  "meta": {
+    "dataset": "hotpot_100.json",
+    "mode": "vllm_async",
+    "num_records": 200,
+    "agents": [
+      "react",
+      "reflexion"
+    ]
+  },
+  "summary": {
+    "react": {
+      "count": 100,
+      "em": 0.97,
+      "avg_attempts": 1,
+      "avg_token_estimate": 730.38,
+      "avg_latency_ms": 1817.86
+    },
+    "reflexion": {
+      "count": 100,
+      "em": 0.97,
+      "avg_attempts": 1.06,
+      "avg_token_estimate": 775.14,
+      "avg_latency_ms": 1806.68
+    },
+    "delta_reflexion_minus_react": {
+      "em_abs": 0.0,
+      "attempts_abs": 0.06,
+      "tokens_abs": 44.76,
+      "latency_abs": -11.18
+    }
+  },
+  "failure_modes": {
+    "react": {
+      "none": 97,
+      "wrong_final_answer": 3
+    },
+    "reflexion": {
+      "none": 97,
+      "wrong_final_answer": 3
+    }
+  },
+  "examples": [
+    {
+      "qid": "hp_ext_1",
+      "agent_type": "react",
+      "gold_answer": "Italy",
+      "predicted_answer": "Italy",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_2",
+      "agent_type": "react",
+      "gold_answer": "Basketball",
+      "predicted_answer": "Basketball",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_3",
+      "agent_type": "react",
+      "gold_answer": "Harvard University",
+      "predicted_answer": "Harvard University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_4",
+      "agent_type": "react",
+      "gold_answer": "Alternating current motor",
+      "predicted_answer": "the alternating current induction motor",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_5",
+      "agent_type": "react",
+      "gold_answer": "Guitar",
+      "predicted_answer": "Guitar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_6",
+      "agent_type": "react",
+      "gold_answer": "Radium and Polonium",
+      "predicted_answer": "radium and polonium",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_7",
+      "agent_type": "react",
+      "gold_answer": "India",
+      "predicted_answer": "India",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_8",
+      "agent_type": "react",
+      "gold_answer": "Practical light bulb",
+      "predicted_answer": "a practical and long-lasting incandescent light bulb",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_9",
+      "agent_type": "react",
+      "gold_answer": "Portugal",
+      "predicted_answer": "Portugal",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_10",
+      "agent_type": "react",
+      "gold_answer": "Theory of Relativity",
+      "predicted_answer": "Theory of relativity",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_11",
+      "agent_type": "react",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_12",
+      "agent_type": "react",
+      "gold_answer": "Oceania",
+      "predicted_answer": "Oceania",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_13",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_14",
+      "agent_type": "react",
+      "gold_answer": "China",
+      "predicted_answer": "China",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_15",
+      "agent_type": "react",
+      "gold_answer": "Tokyo",
+      "predicted_answer": "Tokyo",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_16",
+      "agent_type": "react",
+      "gold_answer": "Nile River",
+      "predicted_answer": "The Nile River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_17",
+      "agent_type": "react",
+      "gold_answer": "Canberra",
+      "predicted_answer": "Canberra",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_18",
+      "agent_type": "react",
+      "gold_answer": "United States",
+      "predicted_answer": "United States",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_19",
+      "agent_type": "react",
+      "gold_answer": "Antarctic Desert",
+      "predicted_answer": "The Antarctic Desert",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_20",
+      "agent_type": "react",
+      "gold_answer": "Brazil",
+      "predicted_answer": "Brazil",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_21",
+      "agent_type": "react",
+      "gold_answer": "1912",
+      "predicted_answer": "1912",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_22",
+      "agent_type": "react",
+      "gold_answer": "Leonardo da Vinci",
+      "predicted_answer": "Leonardo da Vinci",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_23",
+      "agent_type": "react",
+      "gold_answer": "Inca Empire",
+      "predicted_answer": "Inca Empire",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_24",
+      "agent_type": "react",
+      "gold_answer": "George Washington",
+      "predicted_answer": "George Washington",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_25",
+      "agent_type": "react",
+      "gold_answer": "1945",
+      "predicted_answer": "1945",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_26",
+      "agent_type": "react",
+      "gold_answer": "Thomas Jefferson",
+      "predicted_answer": "Thomas Jefferson",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_27",
+      "agent_type": "react",
+      "gold_answer": "Great Pyramid of Giza",
+      "predicted_answer": "The Great Pyramid",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_28",
+      "agent_type": "react",
+      "gold_answer": "Christopher Columbus",
+      "predicted_answer": "Christopher Columbus",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_29",
+      "agent_type": "react",
+      "gold_answer": "Italy",
+      "predicted_answer": "Italy",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_30",
+      "agent_type": "react",
+      "gold_answer": "Constantinople",
+      "predicted_answer": "Constantinople",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_31",
+      "agent_type": "react",
+      "gold_answer": "Dmitri Mendeleev",
+      "predicted_answer": "Dmitri Mendeleev",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_32",
+      "agent_type": "react",
+      "gold_answer": "1969",
+      "predicted_answer": "1969",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_33",
+      "agent_type": "react",
+      "gold_answer": "Alexander Graham Bell",
+      "predicted_answer": "Alexander Graham Bell",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_34",
+      "agent_type": "react",
+      "gold_answer": "299,792 kilometers per second",
+      "predicted_answer": "299,792 kilometers per second",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_35",
+      "agent_type": "react",
+      "gold_answer": "Watson, Crick, and Franklin",
+      "predicted_answer": "James Watson, Francis Crick, and Rosalind Franklin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_36",
+      "agent_type": "react",
+      "gold_answer": "Mercury",
+      "predicted_answer": "Mercury",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_37",
+      "agent_type": "react",
+      "gold_answer": "James Watt",
+      "predicted_answer": "INSUFFICIENT_CONTEXT",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_38",
+      "agent_type": "react",
+      "gold_answer": "Ganymede",
+      "predicted_answer": "Ganymede",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_39",
+      "agent_type": "react",
+      "gold_answer": "Isaac Newton",
+      "predicted_answer": "Isaac Newton",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_40",
+      "agent_type": "react",
+      "gold_answer": "Carbon dioxide",
+      "predicted_answer": "Carbon dioxide",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_41",
+      "agent_type": "react",
+      "gold_answer": "Jane Austen",
+      "predicted_answer": "Jane Austen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_42",
+      "agent_type": "react",
+      "gold_answer": "Hamlet",
+      "predicted_answer": "Hamlet",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_43",
+      "agent_type": "react",
+      "gold_answer": "Antonio Vivaldi",
+      "predicted_answer": "Antonio Vivaldi",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_44",
+      "agent_type": "react",
+      "gold_answer": "Vincent van Gogh",
+      "predicted_answer": "Vincent van Gogh",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_45",
+      "agent_type": "react",
+      "gold_answer": "Mark Twain",
+      "predicted_answer": "Mark Twain",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_46",
+      "agent_type": "react",
+      "gold_answer": "George Orwell",
+      "predicted_answer": "George Orwell",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_47",
+      "agent_type": "react",
+      "gold_answer": "Vincent van Gogh",
+      "predicted_answer": "Vincent van Gogh",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_48",
+      "agent_type": "react",
+      "gold_answer": "Mary Shelley",
+      "predicted_answer": "Mary Shelley",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_49",
+      "agent_type": "react",
+      "gold_answer": "Surrealism",
+      "predicted_answer": "Surrealism",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_50",
+      "agent_type": "react",
+      "gold_answer": "F. Scott Fitzgerald",
+      "predicted_answer": "F. Scott Fitzgerald",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_51",
+      "agent_type": "react",
+      "gold_answer": "Dead Sea",
+      "predicted_answer": "Dead Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_52",
+      "agent_type": "react",
+      "gold_answer": "Himalayas",
+      "predicted_answer": "Himalayas",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_53",
+      "agent_type": "react",
+      "gold_answer": "Danube River",
+      "predicted_answer": "Danube River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_54",
+      "agent_type": "react",
+      "gold_answer": "Arabian Sea",
+      "predicted_answer": "Arabian Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_55",
+      "agent_type": "react",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance language",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_56",
+      "agent_type": "react",
+      "gold_answer": "Arabian Desert",
+      "predicted_answer": "Arabian Desert",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_57",
+      "agent_type": "react",
+      "gold_answer": "18th century",
+      "predicted_answer": "INSUFFICIENT_CONTEXT",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_58",
+      "agent_type": "react",
+      "gold_answer": "Ben Nevis",
+      "predicted_answer": "Ben Nevis",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_59",
+      "agent_type": "react",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_60",
+      "agent_type": "react",
+      "gold_answer": "University of Cambridge",
+      "predicted_answer": "University of Cambridge",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_61",
+      "agent_type": "react",
+      "gold_answer": "Moscow",
+      "predicted_answer": "Moscow",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_62",
+      "agent_type": "react",
+      "gold_answer": "Saint Petersburg",
+      "predicted_answer": "Saint Petersburg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_63",
+      "agent_type": "react",
+      "gold_answer": "Physics",
+      "predicted_answer": "Physics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_64",
+      "agent_type": "react",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_65",
+      "agent_type": "react",
+      "gold_answer": "Spanish",
+      "predicted_answer": "Spanish",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_66",
+      "agent_type": "react",
+      "gold_answer": "Mediterranean Sea",
+      "predicted_answer": "Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_67",
+      "agent_type": "react",
+      "gold_answer": "1859",
+      "predicted_answer": "1859",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_68",
+      "agent_type": "react",
+      "gold_answer": "Cycling",
+      "predicted_answer": "Cycling",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_69",
+      "agent_type": "react",
+      "gold_answer": "Musician",
+      "predicted_answer": "renowned composer and musician",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_70",
+      "agent_type": "react",
+      "gold_answer": "France",
+      "predicted_answer": "France",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_71",
+      "agent_type": "react",
+      "gold_answer": "Mount Hermon",
+      "predicted_answer": "Mount Hermon",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_72",
+      "agent_type": "react",
+      "gold_answer": "Italian",
+      "predicted_answer": "Italian",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_73",
+      "agent_type": "react",
+      "gold_answer": "Atlantic and Mediterranean",
+      "predicted_answer": "Atlantic Ocean and the Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_74",
+      "agent_type": "react",
+      "gold_answer": "Christianity",
+      "predicted_answer": "Christian",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_75",
+      "agent_type": "react",
+      "gold_answer": "Moskva River",
+      "predicted_answer": "Moskva River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_76",
+      "agent_type": "react",
+      "gold_answer": "Physics",
+      "predicted_answer": "Physics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_77",
+      "agent_type": "react",
+      "gold_answer": "19th century",
+      "predicted_answer": "19",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_78",
+      "agent_type": "react",
+      "gold_answer": "Aegean Sea",
+      "predicted_answer": "Aegean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_79",
+      "agent_type": "react",
+      "gold_answer": "Renaissance",
+      "predicted_answer": "Renaissance and Baroque",
+      "is_correct": false,
+      "attempts": 1,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_80",
+      "agent_type": "react",
+      "gold_answer": "Ptolemaic Egypt",
+      "predicted_answer": "Ptolemaic Egypt",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_81",
+      "agent_type": "react",
+      "gold_answer": "Italy",
+      "predicted_answer": "Italy",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_82",
+      "agent_type": "react",
+      "gold_answer": "Basketball",
+      "predicted_answer": "Basketball",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_83",
+      "agent_type": "react",
+      "gold_answer": "Harvard University",
+      "predicted_answer": "Harvard University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_84",
+      "agent_type": "react",
+      "gold_answer": "Alternating current motor",
+      "predicted_answer": "the alternating current induction motor",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_85",
+      "agent_type": "react",
+      "gold_answer": "Guitar",
+      "predicted_answer": "Guitar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_86",
+      "agent_type": "react",
+      "gold_answer": "Radium and Polonium",
+      "predicted_answer": "radium and polonium",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_87",
+      "agent_type": "react",
+      "gold_answer": "India",
+      "predicted_answer": "India",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_88",
+      "agent_type": "react",
+      "gold_answer": "Practical light bulb",
+      "predicted_answer": "a practical and long-lasting incandescent light bulb",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_89",
+      "agent_type": "react",
+      "gold_answer": "Portugal",
+      "predicted_answer": "Portugal",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_90",
+      "agent_type": "react",
+      "gold_answer": "Theory of Relativity",
+      "predicted_answer": "Theory of relativity",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_91",
+      "agent_type": "react",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_92",
+      "agent_type": "react",
+      "gold_answer": "Oceania",
+      "predicted_answer": "Oceania",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_93",
+      "agent_type": "react",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_94",
+      "agent_type": "react",
+      "gold_answer": "China",
+      "predicted_answer": "China",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_95",
+      "agent_type": "react",
+      "gold_answer": "Tokyo",
+      "predicted_answer": "Tokyo",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_96",
+      "agent_type": "react",
+      "gold_answer": "Nile River",
+      "predicted_answer": "The Nile River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_97",
+      "agent_type": "react",
+      "gold_answer": "Canberra",
+      "predicted_answer": "Canberra",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_98",
+      "agent_type": "react",
+      "gold_answer": "United States",
+      "predicted_answer": "United States",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_99",
+      "agent_type": "react",
+      "gold_answer": "Antarctic Desert",
+      "predicted_answer": "The Antarctic Desert",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_100",
+      "agent_type": "react",
+      "gold_answer": "Brazil",
+      "predicted_answer": "Brazil",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_1",
+      "agent_type": "reflexion",
+      "gold_answer": "Italy",
+      "predicted_answer": "Italy",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_2",
+      "agent_type": "reflexion",
+      "gold_answer": "Basketball",
+      "predicted_answer": "Basketball",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_3",
+      "agent_type": "reflexion",
+      "gold_answer": "Harvard University",
+      "predicted_answer": "Harvard University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_4",
+      "agent_type": "reflexion",
+      "gold_answer": "Alternating current motor",
+      "predicted_answer": "the alternating current induction motor",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_5",
+      "agent_type": "reflexion",
+      "gold_answer": "Guitar",
+      "predicted_answer": "Guitar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_6",
+      "agent_type": "reflexion",
+      "gold_answer": "Radium and Polonium",
+      "predicted_answer": "radium and polonium",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_7",
+      "agent_type": "reflexion",
+      "gold_answer": "India",
+      "predicted_answer": "India",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_8",
+      "agent_type": "reflexion",
+      "gold_answer": "Practical light bulb",
+      "predicted_answer": "a practical and long-lasting incandescent light bulb",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_9",
+      "agent_type": "reflexion",
+      "gold_answer": "Portugal",
+      "predicted_answer": "Portugal",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_10",
+      "agent_type": "reflexion",
+      "gold_answer": "Theory of Relativity",
+      "predicted_answer": "Theory of relativity",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_11",
+      "agent_type": "reflexion",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_12",
+      "agent_type": "reflexion",
+      "gold_answer": "Oceania",
+      "predicted_answer": "Oceania",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_13",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_14",
+      "agent_type": "reflexion",
+      "gold_answer": "China",
+      "predicted_answer": "China",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_15",
+      "agent_type": "reflexion",
+      "gold_answer": "Tokyo",
+      "predicted_answer": "Tokyo",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_16",
+      "agent_type": "reflexion",
+      "gold_answer": "Nile River",
+      "predicted_answer": "The Nile River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_17",
+      "agent_type": "reflexion",
+      "gold_answer": "Canberra",
+      "predicted_answer": "Canberra",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_18",
+      "agent_type": "reflexion",
+      "gold_answer": "United States",
+      "predicted_answer": "United States",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_19",
+      "agent_type": "reflexion",
+      "gold_answer": "Antarctic Desert",
+      "predicted_answer": "The Antarctic Desert",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_20",
+      "agent_type": "reflexion",
+      "gold_answer": "Brazil",
+      "predicted_answer": "Brazil",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_21",
+      "agent_type": "reflexion",
+      "gold_answer": "1912",
+      "predicted_answer": "1912",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_22",
+      "agent_type": "reflexion",
+      "gold_answer": "Leonardo da Vinci",
+      "predicted_answer": "Leonardo da Vinci",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_23",
+      "agent_type": "reflexion",
+      "gold_answer": "Inca Empire",
+      "predicted_answer": "Inca Empire",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_24",
+      "agent_type": "reflexion",
+      "gold_answer": "George Washington",
+      "predicted_answer": "George Washington",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_25",
+      "agent_type": "reflexion",
+      "gold_answer": "1945",
+      "predicted_answer": "1945",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_26",
+      "agent_type": "reflexion",
+      "gold_answer": "Thomas Jefferson",
+      "predicted_answer": "Thomas Jefferson",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_27",
+      "agent_type": "reflexion",
+      "gold_answer": "Great Pyramid of Giza",
+      "predicted_answer": "The Great Pyramid",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_28",
+      "agent_type": "reflexion",
+      "gold_answer": "Christopher Columbus",
+      "predicted_answer": "Christopher Columbus",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_29",
+      "agent_type": "reflexion",
+      "gold_answer": "Italy",
+      "predicted_answer": "Italy",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_30",
+      "agent_type": "reflexion",
+      "gold_answer": "Constantinople",
+      "predicted_answer": "Constantinople",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_31",
+      "agent_type": "reflexion",
+      "gold_answer": "Dmitri Mendeleev",
+      "predicted_answer": "Dmitri Mendeleev",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_32",
+      "agent_type": "reflexion",
+      "gold_answer": "1969",
+      "predicted_answer": "1969",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_33",
+      "agent_type": "reflexion",
+      "gold_answer": "Alexander Graham Bell",
+      "predicted_answer": "Alexander Graham Bell",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_34",
+      "agent_type": "reflexion",
+      "gold_answer": "299,792 kilometers per second",
+      "predicted_answer": "299,792 kilometers per second",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_35",
+      "agent_type": "reflexion",
+      "gold_answer": "Watson, Crick, and Franklin",
+      "predicted_answer": "James Watson, Francis Crick, and Rosalind Franklin",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_36",
+      "agent_type": "reflexion",
+      "gold_answer": "Mercury",
+      "predicted_answer": "Mercury",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_37",
+      "agent_type": "reflexion",
+      "gold_answer": "James Watt",
+      "predicted_answer": "INSUFFICIENT_CONTEXT",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_38",
+      "agent_type": "reflexion",
+      "gold_answer": "Ganymede",
+      "predicted_answer": "Ganymede",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_39",
+      "agent_type": "reflexion",
+      "gold_answer": "Isaac Newton",
+      "predicted_answer": "Isaac Newton",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_40",
+      "agent_type": "reflexion",
+      "gold_answer": "Carbon dioxide",
+      "predicted_answer": "Carbon dioxide",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_41",
+      "agent_type": "reflexion",
+      "gold_answer": "Jane Austen",
+      "predicted_answer": "Jane Austen",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_42",
+      "agent_type": "reflexion",
+      "gold_answer": "Hamlet",
+      "predicted_answer": "Hamlet",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_43",
+      "agent_type": "reflexion",
+      "gold_answer": "Antonio Vivaldi",
+      "predicted_answer": "Antonio Vivaldi",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_44",
+      "agent_type": "reflexion",
+      "gold_answer": "Vincent van Gogh",
+      "predicted_answer": "Vincent van Gogh",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_45",
+      "agent_type": "reflexion",
+      "gold_answer": "Mark Twain",
+      "predicted_answer": "Mark Twain",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_46",
+      "agent_type": "reflexion",
+      "gold_answer": "George Orwell",
+      "predicted_answer": "George Orwell",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_47",
+      "agent_type": "reflexion",
+      "gold_answer": "Vincent van Gogh",
+      "predicted_answer": "Vincent van Gogh",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_48",
+      "agent_type": "reflexion",
+      "gold_answer": "Mary Shelley",
+      "predicted_answer": "Mary Shelley",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_49",
+      "agent_type": "reflexion",
+      "gold_answer": "Surrealism",
+      "predicted_answer": "Surrealism",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_50",
+      "agent_type": "reflexion",
+      "gold_answer": "F. Scott Fitzgerald",
+      "predicted_answer": "F. Scott Fitzgerald",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_51",
+      "agent_type": "reflexion",
+      "gold_answer": "Dead Sea",
+      "predicted_answer": "Dead Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_52",
+      "agent_type": "reflexion",
+      "gold_answer": "Himalayas",
+      "predicted_answer": "Himalayas",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_53",
+      "agent_type": "reflexion",
+      "gold_answer": "Danube River",
+      "predicted_answer": "Danube River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_54",
+      "agent_type": "reflexion",
+      "gold_answer": "Arabian Sea",
+      "predicted_answer": "Arabian Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_55",
+      "agent_type": "reflexion",
+      "gold_answer": "Romance",
+      "predicted_answer": "Romance language",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_56",
+      "agent_type": "reflexion",
+      "gold_answer": "Arabian Desert",
+      "predicted_answer": "Arabian Desert",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_57",
+      "agent_type": "reflexion",
+      "gold_answer": "18th century",
+      "predicted_answer": "INSUFFICIENT_CONTEXT",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_58",
+      "agent_type": "reflexion",
+      "gold_answer": "Ben Nevis",
+      "predicted_answer": "Ben Nevis",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_59",
+      "agent_type": "reflexion",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_60",
+      "agent_type": "reflexion",
+      "gold_answer": "University of Cambridge",
+      "predicted_answer": "University of Cambridge",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_61",
+      "agent_type": "reflexion",
+      "gold_answer": "Moscow",
+      "predicted_answer": "Moscow",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_62",
+      "agent_type": "reflexion",
+      "gold_answer": "Saint Petersburg",
+      "predicted_answer": "Saint Petersburg",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_63",
+      "agent_type": "reflexion",
+      "gold_answer": "Physics",
+      "predicted_answer": "Physics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_64",
+      "agent_type": "reflexion",
+      "gold_answer": "South America",
+      "predicted_answer": "South America",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_65",
+      "agent_type": "reflexion",
+      "gold_answer": "Spanish",
+      "predicted_answer": "Spanish",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_66",
+      "agent_type": "reflexion",
+      "gold_answer": "Mediterranean Sea",
+      "predicted_answer": "Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_67",
+      "agent_type": "reflexion",
+      "gold_answer": "1859",
+      "predicted_answer": "1859",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_68",
+      "agent_type": "reflexion",
+      "gold_answer": "Cycling",
+      "predicted_answer": "Cycling",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_69",
+      "agent_type": "reflexion",
+      "gold_answer": "Musician",
+      "predicted_answer": "renowned composer and musician",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_70",
+      "agent_type": "reflexion",
+      "gold_answer": "France",
+      "predicted_answer": "France",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_71",
+      "agent_type": "reflexion",
+      "gold_answer": "Mount Hermon",
+      "predicted_answer": "Mount Hermon",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_72",
+      "agent_type": "reflexion",
+      "gold_answer": "Italian",
+      "predicted_answer": "Italian",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_73",
+      "agent_type": "reflexion",
+      "gold_answer": "Atlantic and Mediterranean",
+      "predicted_answer": "Atlantic Ocean and the Mediterranean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_74",
+      "agent_type": "reflexion",
+      "gold_answer": "Christianity",
+      "predicted_answer": "Christian",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_75",
+      "agent_type": "reflexion",
+      "gold_answer": "Moskva River",
+      "predicted_answer": "Moskva River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_76",
+      "agent_type": "reflexion",
+      "gold_answer": "Physics",
+      "predicted_answer": "Physics",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_77",
+      "agent_type": "reflexion",
+      "gold_answer": "19th century",
+      "predicted_answer": "19th century",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_78",
+      "agent_type": "reflexion",
+      "gold_answer": "Aegean Sea",
+      "predicted_answer": "Aegean Sea",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_79",
+      "agent_type": "reflexion",
+      "gold_answer": "Renaissance",
+      "predicted_answer": "Renaissance and Baroque",
+      "is_correct": false,
+      "attempts": 3,
+      "failure_mode": "wrong_final_answer",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_80",
+      "agent_type": "reflexion",
+      "gold_answer": "Ptolemaic Egypt",
+      "predicted_answer": "Ptolemaic Egypt",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_81",
+      "agent_type": "reflexion",
+      "gold_answer": "Italy",
+      "predicted_answer": "Italy",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_82",
+      "agent_type": "reflexion",
+      "gold_answer": "Basketball",
+      "predicted_answer": "Basketball",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_83",
+      "agent_type": "reflexion",
+      "gold_answer": "Harvard University",
+      "predicted_answer": "Harvard University",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_84",
+      "agent_type": "reflexion",
+      "gold_answer": "Alternating current motor",
+      "predicted_answer": "the alternating current induction motor",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_85",
+      "agent_type": "reflexion",
+      "gold_answer": "Guitar",
+      "predicted_answer": "Guitar",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_86",
+      "agent_type": "reflexion",
+      "gold_answer": "Radium and Polonium",
+      "predicted_answer": "radium and polonium",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_87",
+      "agent_type": "reflexion",
+      "gold_answer": "India",
+      "predicted_answer": "India",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_88",
+      "agent_type": "reflexion",
+      "gold_answer": "Practical light bulb",
+      "predicted_answer": "a practical and long-lasting incandescent light bulb",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_89",
+      "agent_type": "reflexion",
+      "gold_answer": "Portugal",
+      "predicted_answer": "Portugal",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_90",
+      "agent_type": "reflexion",
+      "gold_answer": "Theory of Relativity",
+      "predicted_answer": "Theory of relativity",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_91",
+      "agent_type": "reflexion",
+      "gold_answer": "Paris",
+      "predicted_answer": "Paris",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_92",
+      "agent_type": "reflexion",
+      "gold_answer": "Oceania",
+      "predicted_answer": "Oceania",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_93",
+      "agent_type": "reflexion",
+      "gold_answer": "Pacific Ocean",
+      "predicted_answer": "The Pacific Ocean",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_94",
+      "agent_type": "reflexion",
+      "gold_answer": "China",
+      "predicted_answer": "China",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_95",
+      "agent_type": "reflexion",
+      "gold_answer": "Tokyo",
+      "predicted_answer": "Tokyo",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_96",
+      "agent_type": "reflexion",
+      "gold_answer": "Nile River",
+      "predicted_answer": "The Nile River",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_97",
+      "agent_type": "reflexion",
+      "gold_answer": "Canberra",
+      "predicted_answer": "Canberra",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_98",
+      "agent_type": "reflexion",
+      "gold_answer": "United States",
+      "predicted_answer": "United States",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_99",
+      "agent_type": "reflexion",
+      "gold_answer": "Antarctic Desert",
+      "predicted_answer": "The Antarctic Desert",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    },
+    {
+      "qid": "hp_ext_100",
+      "agent_type": "reflexion",
+      "gold_answer": "Brazil",
+      "predicted_answer": "Brazil",
+      "is_correct": true,
+      "attempts": 1,
+      "failure_mode": "none",
+      "reflection_count": 0
+    }
+  ],
+  "extensions": [
+    "structured_evaluator",
+    "reflection_memory",
+    "benchmark_report_json",
+    "mock_mode_for_autograding"
+  ],
+  "discussion": "Reflexion helps when the first attempt stops after the first hop or drifts to a wrong second-hop entity. The tradeoff is higher attempts, token cost, and latency. In a real report, students should explain when the reflection memory was useful, which failure modes remained, and whether evaluator quality limited gains."
+}
